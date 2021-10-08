@@ -114,7 +114,7 @@ h3 {
 #font-grid * {
     margin: 0;
 }
-#font-link {
+#link-button {
     background-color: var(--light-gray);
     padding: 1rem;
     margin: 4rem 0px;
@@ -209,10 +209,25 @@ h3 {
 ion-icon {
     line-height: inherit;
     font-size: inherit;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     margin-right: .5rem;
 }
 
+#download-button {
+    display: flex;
+
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+
+    text-align: center;
+    text-decoration: none;
+
+    background-color: var(--light-gray);
+    color: var(--black);
+}
 @media(max-width: 768px) {
     .body-section {
         width: 100%;
